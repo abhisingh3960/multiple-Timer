@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_conatiner{
+    margin-top: 2rem;
+}
+.heading h1{
+    margin: 0 0 1.5rem 0 ;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 1rem;
+}
+.card{
+    width: 100%;
+    height: auto;
+    background-color: beige;
+    border-radius: 1rem;
+}
+.sub_heading h4{
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom: 0.5rem;
+}
+input{
+    border-radius: 0.2rem;
+    gap: 1rem;
+}
+label{
+    gap: 1.5rem;
+    margin: 0.3rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.set_btn{
+    padding: 1rem;
+    text-align: center;
+}
+.set_btn button{
+    border: none;
+    font-weight: 600;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+    margin: 0.3rem 0 0.9rem 0;
+    text-align: center;
+    background-color: rgb(84, 227, 84);
+}
+.current_timer h3{
+    margin-top: 1.5rem;
+    padding: 0.2rem;
+    background: lightgray;
+    border-radius: 1rem;
+    text-align: center;
+    border: 0.1rem solid gray;
+    text-align: center;
+}
+
+.para p {
+    text-align: center;
+    margin-top: 0.8rem;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+
+.newAddCard {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timerEnded {
+    background-color:grey;
+    color: white;
+    border-radius: 1rem;
+}
